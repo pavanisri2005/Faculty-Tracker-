@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Faculty Tracker - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="home-body">
+  <h1>Welcome to Smart Faculty Tracker</h1>
+  <p>Select Your Department</p>
+
+  <div class="branch-buttons">
+    <!-- AIML Department -->
+    <button onclick="goToAIML()">AIML</button>
+
+    <!-- Other Departments -->
+    <button onclick="alert('CSE page under development')">CSE</button>
+    <button onclick="alert('ECE page under development')">ECE</button>
+    <button onclick="alert('EEE page under development')">EEE</button>
+    <button onclick="alert('MECH page under development')">MECH</button>
+  </div>
+
+  <script>
+    function goToAIML() {
+      window.location.href = "aiml.html";
+    }
+  </script>
+</body>
+</html>
