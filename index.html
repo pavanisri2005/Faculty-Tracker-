@@ -14,19 +14,7 @@
     <p id="error" class="error-msg"></p>
   </div>
 
-  <script>
-    function login() {
-      const username = document.getElementById("username").value.trim();
-      const password = document.getElementById("password").value.trim();
-      const error = document.getElementById("error");
+ <script src="Script.js"></script>
 
-      // Use lowercase comparison for password (you can change this if needed)
-      if (username === "23P31A4256" && password.toLowerCase() === "weblock") {
-        window.location.href = "home.html";
-      } else {
-        error.textContent = "Invalid credentials. Please try again.";
-      }
-    }
-  </script>
 </body>
 </html>
